@@ -1,0 +1,41 @@
+.rojo {
+    background-image: url('/img/nav.jpg');
+}
+
+.texto-negro{
+    font-weight: bold;
+    color:#000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fondo {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.fondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cartas{
+    height: 100%; 
+    width:100%;
+    display: block;
+}
+
+.alb{
+    margin-top: 5%;
+}
+
+.fondorojo{
+    background-color: rgb(94, 17, 17);
+}
+
+.fondonegro{
+    background-color:rgb(25, 23, 23);
+}

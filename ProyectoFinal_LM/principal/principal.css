@@ -1,0 +1,139 @@
+.rojo {
+    background-image: url('/img/nav.jpg');
+}
+
+.texto-negro{
+    font-weight: bold;
+    color:#000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fondo1{
+    background: url('/img/fondo1.jpg');
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.fondo2 {
+    background: url('/img/fondo2.jpg');
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.fondo3 {
+    background: url('/img/fondo3.jpg');
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.fondo4 {
+    background: url('/img/fondo4.jpg');
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.fondo5 {
+    background: url('/img/fondo5.jpg');
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.fondo6 {
+    background: url('/img/fondo6.jpg');
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.fondo1, .fondo2, .fondo3 {
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tit1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #111;
+}
+
+.tit2 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #8b1212;
+}
+
+.parrafo{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.btn-secondary{
+    margin: auto;
+    background-color:#570d23;
+    color: #000000;
+}
+
+.bloques1{
+    color: #000000;
+    background-color:rgb(122, 23, 23);
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.bloques2{
+    color: #8b1212;
+    background-color:rgb(17, 16, 16);
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span {
+    background-color: #111;
+    color: #b31515;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.redes{
+    background-color: #9b192a;
+}
+

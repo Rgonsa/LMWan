@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scarlet Witch</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="relaciones.css">
+</head>
+<body>
+<!----------------------------------------------IMAGEN FONDO------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <div class="fondo">
+        <img src="/img/corona.png">
+    </div>
+<!-------------------------------------------------NAVBAR------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top rojo">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false" aria-controls="collapseExample">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+              <ul class="navbar-nav texto-negro">
+                <li class="nav-item">
+                  <a class="nav-link" href="/principal/principal.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contacto/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/galería/galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/nosotros/nosotros.html">Sobre nosotros</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+<!-------------------------------------------------FOTO VISION------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="album py-5 alb">
+          <div class="container">
+            <div class="row display-flex flex-wrap">
+              <div class="col-md-4">
+                <div class="card mb-4 fondorojo">
+                  <img class="card-img-top cartas" src="/img/vision.jpg">
+                  <div class="card-body fondorojo text-white">
+                    <h5 class="card-title">Visión</h5>
+                    <p class="card-text">​</p>
+                    <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#modal1">Leer</a>
+                  </div>
+                </div>
+              </div>
+<!-------------------------------------------------FOTO PIETRO------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>              
+              <div class="col-md-4">
+                <div class="card mb-4 fondonegro">
+                  <img class="card-img-top cartas" src="/img/pietro.jpg">
+                  <div class="card-body fondonegro text-white">
+                    <h5 class="card-title">Pietro Maximoff (Quicksilver)</h5>
+                    <p class="card-text">​</p>
+                    <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#modal2">Leer</a>
+                  </div>
+                </div>
+              </div>
+<!-----------------------------------------------FOTO BILLY Y TOMMY------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+              <div class="col-md-4">
+                <div class="card mb-4 fondorojo">
+                  <img class="card-img-top cartas" src="/img/billytommy.jpg">
+                  <div class="card-body fondorojo text-white">
+                    <h5 class="card-title">Billy y Tommy (Wiccan y Speed)</h5>
+                    <p class="card-text">​</p>
+                    <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#modal3">Leer</a>
+                  </div>
+                </div>
+              </div>
+<!-------------------------------------------------FOTO MAGNETO------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>              
+              <div class="col-md-4">
+                <div class="card mb-4 fondonegro">
+                  <img class="card-img-top cartas" src="/img/magneto.jpg">
+                  <div class="card-body fondonegro text-white">
+                    <h5 class="card-title">Erik Lehnsherr (Magneto)</h5>
+                    <p class="card-text">​</p>
+                    <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#modal4">Leer</a>
+                  </div>
+                </div>
+              </div>
+<!-------------------------------------------------FOTO POLARIS------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+              <div class="col-md-4">
+                <div class="card mb-4 fondorojo">
+                  <img class="card-img-top cartas" src="/img/polaris.jpg">
+                  <div class="card-body fondorojo text-white">
+                    <h5 class="card-title">Lorna Dane (Polaris)</h5>
+                    <p class="card-text">​</p>
+                    <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#modal5">Leer</a>
+                  </div>
+                </div>
+              </div>
+<!------------------------------------------------FOTO WONDERMAN------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+              <div class="col-md-4">
+                <div class="card mb-4 fondonegro">
+                  <img class="card-img-top cartas" src="/img/wonderman.jpg">
+                  <div class="card-body fondonegro text-white">
+                    <h5 class="card-title">Simon Williams (Wonderman)</h5>
+                    <p class="card-text">​</p>
+                    <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#modal6">Leer</a>
+                  </div>
+                </div>
+              </div>
+<!-------------------------------------------------FOTO AGATHA------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+              <div class="col-md-4">
+                <div class="card mb-4 fondorojo">
+                  <img class="card-img-top cartas" src="/img/agatha.jpg">
+                  <div class="card-body fondorojo text-white">
+                    <h5 class="card-title">Agatha Harkness</h5>
+                    <p class="card-text">​</p>
+                    <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#modal7">Leer</a>
+                  </div>
+                </div>
+              </div>
+<!---------------------------------------------FOTO DJANGO Y MARYA------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+              <div class="col-md-4">
+                <div class="card mb-4 fondonegro">
+                  <img class="card-img-top cartas" src="/img/django.jpeg">
+                  <div class="card-body fondonegro text-white">
+                    <h5 class="card-title">Django y Marya Maximoff</h5>
+                    <p class="card-text">​</p>
+                    <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#modal8">Leer</a>
+                  </div>
+                </div>
+              </div>
+<!-------------------------------------------------FOTO OLEG E IRYNA------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+              <div class="col-md-4">
+                <div class="card mb-4 fondorojo">
+                  <img class="card-img-top cartas" src="/img/oleg.jpg">
+                  <div class="card-body fondorojo text-white">
+                    <h5 class="card-title">Oleg e Iryna Maximoff</h5>
+                    <p class="card-text">​</p>
+                    <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#modal9">Leer</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-------------------------------------------------MODEL VISION------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="modal" id="modal1" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Wanda y Visión</h5>
+              </div>
+              <div class="modal-body">
+                <p>Tanto en los comics como en el UCM, Wanda y Visión se conocieron mientras ambos formaban parte de los Vengadores y empezaron una relación poco despues. En los comics se casaron tras rescatar 
+                  a Agatha Harkness de las manos de Dormamu y tuvieron una boda doble junto a Mantis y el Espadachin. Poco despues se mudaron juntos y tuvieron dos hijos, Billy y Tommy. Visión despues fue capturado y desmantelado, y al 
+                  ser reconstruido perdió todos sus recuerdos de Wanda y su relación, lo que llevó a su ruptura. Tras esto Visión estrelló un Quinjet en la mansión de los Vengadores bajo el control de Ultrón, lo que llevó a que She-Hulk lo matara
+                  para proteger al resto. Al vencer a Ultron, Visión fue reconstruido, aunque Wanda y él decidieron quedarse como amigos. En cuanto al UCM, ambos pelearon en distintos bandos durante Civil War, y tras la derrota del bando del Capitán America, Wanda fue capturada. 
+                  Pero no duró mucho, gracias a la ayuda del Capitán America, Viuda Negra y el Soldado de Invierno, quienes la liberaron. Tras su escape, tanto ella como Visión se dieron a la fuga y vivieron su amor mientras huian. Sin embargo tras la llegada de Thanos a la tierra, y buscando la
+                  gema de la mente, la cual tenía Visión, serían atacados, por la Orden Negra. Al final, Wanda tendría que destruir la gema, matando a Visión en el proceso. Pero tras la derrota de Thanos, Wanda crearía con sus poderes una realidad donde Visión estaba vivo y ambos vivían en 
+                  el mundo de ensueño de Wanda, inspirado por las sitcoms. Sin embargo, esto vendría con el costo de encerrar a todo el pueblo de Westview en esa realidad. Tras darse de cuenta de lo que había hecho Wanda decidió deshacer el hechizo, lo que resultó en la muerte de este nuevo Visión.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-------------------------------------------------MODEL PIETRO------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="modal" id="modal2" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Wanda y su mellizo</h5>
+              </div>
+              <div class="modal-body">
+                <p>Pietro y Wanda fueron criados por dos aldeanos de una pequeña comunidad, pero tras la muerte de su madre ambos huyeron y deambularon por un tiempo. En la adolescencia Wanda usó sus poderes en público para salvar a un niño lo que llevó a una muchedumbre atacandoles.
+                  Por suerte fueron salvados por Magneto, quien los reclutó para formar parte de la Hermandad de Mutantes Diabolicos. Pese a que no querer formar parte de la hermandad ambos aceptan por estar en deuda con Magneto. Al desmantelarse la Hermandad, Iron Man los recluta para ser
+                  parte de los Vengadores y ambos aceptan. Tras una serie de eventos los X-Men capturan a Wanda y toman una votación para decidir si vive o muere, pero Pietro le dice que use sus poderes para cambiar la realidad, lo que lleva a los eventos de "House of M" y a la perdida de los 
+                  poderes de Pietro gracias a su hermana. En el UCM ambos empezaron luchando contra los Vengadores bajo las ordenes de Ultron, sin embargo al descubrir que el objetivo de Ultron era destruir toda la vida en el mundo, los hermanos huyeron y se unieron a los Vengadores. Durante 
+                  la batalla final contra Ultron en Sokovia, la ciudad natal de los mellizos, Pietro fue disparado tratando de salvar a Ojo de Halcón, lo que llevó a su muerte. Durante los eventos de "WandaVision", bajo la ilusión que encerraba a Westview, Wanda recibió la visita de Pietro, pero no
+                  era el mismo Pietro, sino un ciudadano de Westview controlado por Agatha Harkness para conocer los secretos de Wanda.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!----------------------------------------------MODEL BILLY Y TOMMY------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="modal" id="modal3" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Wanda y sus hijos</h5>
+              </div>
+              <div class="modal-body">
+                <p>El mayor deseo de Wanda en todas sus iteraciones es llevar una vida normal y ser madre. En los comics este deseo se lleva a cabo cuando Vision y Wanda dejan los Vengadores por un tiempo y tiene a sus mellizos, Billy y Tommy. Sin embargo, descubre despues, gracias a Agatha Harkness que sus hijos
+                  no son reales, sino que fueron creados por Wanda con su magia y partes del alma del villano Mephisto, un demonio. FInalmente fueron reabsorbidos por este villano y dejaron de existir, y para que no sufriera Agatha decidió borrarle la memoria a Wanda. Sin embargo, los eventos de "House of M" provocaron que 
+                  esos recuerdos volvieran y, sin querer, creara toda una nueva realidad donde tenía su vida deseada, hasta que descubrió la verdad y pudo parar. Pero poco despues se descubrió que las almas de Billy y Tommy no habían sido absorbidas, sino que habían aterrizado en otros dos niños que estaban a punto de nacer. Así, Billy y Tommy
+                  crecieron, pero en diferentes hogares y sin conocimiento de sus verdaderas identidades. Tras una serie de eventos ambos despertaron sus poderes y se conviertieron en superheroes. Billy sería Wiccan, quien tiene los mismos poderes que su madre pero inlcuso mas fuertes, y Tommy sería Speed, con los mismos poderes que su tio 
+                  Pietro. Ambos pasarían a formar parte de los Jovenes Vengadores y eventualmente acabarían conociendo la verdad y reuniendose con su madre. En el UCM ambos nacen como parte de la ilusión que Wanda crea en Westview para conseguir su vida de ensueño, pero acaban desapareciendo cuando Wanda deshace el hechizo para liberar al pueblo.
+                  Desgraciadamente, Wanda se obsesionaría con encontrarlos usando el Darkhold, quien la corrompería, y empezaría a buscar un universo donde poder estar con ellos, lo que la lleva a perseguir a America Chavez para conseguir su poder. Doctor Strange y America acabarían derrotandola y Wanda, dandose cuenta de lo que ha hecho, decide 
+                  destruir el Darkhold y desaparecer. 
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-------------------------------------------------MODEL MAGNETO------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="modal" id="modal4" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Wanda y su padre</h5>
+              </div>
+              <div class="modal-body">
+                <p>Durante el reinado de los nazis, Erik Lehnsherr se enamoró de Magda y ambos huyeron a Vinnytsia para vivir una vida tranquila con su hija Anya, hasta que una muchedumbre les atacó y prendió fuego a su casa mientras golpeaban a Erik. 
+                  El fuego se expandió rapidamente, matando a Anya y despertando los poderes de Erik. Devastada y asustada Magda huyó y se escondió en la Montaña Wundagore, donde dió a luz a Wanda y Pietro. Magda murió tras el parto por lo que el Alto Evolucionador
+                  le entregó los gemelos a dos aldeanos. Unos años despues Erik (ahora Magneto) salvó a los mellizos y los reclutó para formar parte de la Hermandad de Mutantes Diabolicos, sin embargo, despues de que ambos se negaran a matar a nadie y tras el secuestro de Magneto,
+                  Wanda y Pietro huyeron con los Vengadores, lo que les convirtió en enemigos de Magneto. Durante una de sus batallas, Wanda luchó hasta el final para proteger a Pietro y a su hija Luna, y fue entonces cuando Magneto reveló que nunca haría daño a su nieta. Pese a esta
+                  revelación tanto Wanda como Pietro se negaban a tener ninguna relación con él, aunque al poco tiempo Wanda empezó a intentar enmendar su relación. Durante los eventos de "House of M", Wanda creó un universo en el que Magneto era el gobernador de todo el planeta, pero al descubrir 
+                  que Pietro era el que había convencido a Wanda de crear ese universo, Erik mató a su propio hijo. Wanda al enterarse y al descubrir la verdad llevó el mundo a su estado original, pero quitandole los poderes al 90% de los mutantes. Pese a esto, al tiempo se descubrió
+                  que ninguno era hijo biologico de Magneto, sino que ambos eran experimentos del Alto Evolucionador, quien mató a Magda e hizo pasar a Wanda y Pietro como sus hijos. Pese a esta revlación Magneto decidió que no le importaba si era real o no, él los consideraba sus hijos.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-------------------------------------------------MODEL POLARIS------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="modal" id="modal5" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Wanda y su hermana</h5>
+              </div>
+              <div class="modal-body">
+                <p>Pese a no haber mucha relación entre ambas, sabemos que Wanda y Lorna son medio hermanas. Lorna nace de un affair de su madre Suzanne y Magneto. Unos años despues del nacimiento de Lorna, su padre descubre que no es su hija mientras estan en un avión, lo que lleva a una pelea
+                  entre ambos padres. La pelea hace que una pequeña Lorna empiece a llorar y esto manifiesta sus poderes, destruyendo el avión y matando a sus padres, además de darle a su pelo ese color verde. Tras los eventos de "House of M" ella tabien perdió sus poderes aunque los ganó poco despues
+                  mediante unos implantes en su columna vertebral.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-------------------------------------------------MODEL WONDERMAN------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="modal" id="modal6" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Wanda y Wonderman</h5>
+              </div>
+              <div class="modal-body">
+                <p>En un inicio Visión fue creado usando el cuerpo de un sintezoide y los patrones mentales de Wonderman, quien para este punto habia sido asesinado por Baron Zemo. Por lo tanto no es de sorprender que despues de que Wonderman volviera a la vida, Wanda y el se enamoraran. Sin embargo su relacion
+                  no empezo hasta que Visión se convirtió en Visión blanco y Wanda y el lo dejaron. Sin embargo, el romance no duró mucho, puesto que pese a que Visión y Wonderman compartian los mismos patrones mentales no eran la misma persona ni habían vivido las mismas experiencias, ya sea por su cuenta o en su
+                  relacion con Wanda, por lo que, pese a que Wonderman estaba perdidamente enamorado de ella, Wanda acabó terminando la relación, pues su verdadero amor era Visión, no una copia. 
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-------------------------------------------------MODEL AGATHA------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="modal" id="modal7" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Wanda y Agatha</h5>
+              </div>
+              <div class="modal-body">
+                <p>Nada mas conocer a Wanda, Agatha sintió su deseo de mejorar en la destreza de sus poderes, asi que se ofreció a entrenarla y ella aceptó, lo que llevó a una amistad entre las dos. Durante el entrenamiento Agatha le reveló que en realidad era una de las brujas que había sobrevivido a Salem 
+                  y tenía mas de 500 años. Su entrenamiento terminó tras su casamiento con Visión y posteriormente Agatha fue capturada por sus propios nietos, quienes habian formado un culto conocido como los Siete de Salem, Wanda y los 4 Fantasticos trataron de salvarla, pero acabó siendo quemada en la estaca.
+                  Sin embargo tras el nacimiento de Billy y Tommy, Agatha volvió sin explicación y borró la memoria de Wanda, pero al recuperarla fue a ver a su antigua amiga y mentora y la mató, aunque volvió a la vida poco despues y cuidó a Wanda mientras se recuperaba de los eventos de "House of M". En el UCM sin 
+                  embargo la historia es distinta. Mientras Wanda tomaba el control de Westview, Agatha se hizó pasar por Agnes, vecina y amiga de Wanda, con el objetivo de conocer de donde provenía su magia, porque era tan poderosa y al final tomarla para ella, incluso si significaba matar a Wanda. Sin embargo gracias
+                  a sus poderes, al amor de su familia y a la ayuda de la agente Monica Rambeau, Wanda es capaz de derrotar a Agatha y conventirla en el personaje que ella había elegido, Agnes.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-------------------------------------------------MODEL DJANGO Y MARYA------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="modal" id="modal8" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Wanda y sus padres</h5>
+              </div>
+              <div class="modal-body">
+                <p>En los comics, el Alto Evolucionador le otorgó los mellizos a dos campesinos, Oleg y Marya, quienes tras perder a sus dos hijos por culpa del hambre, vieron a estos nuevos hijos como una segunda oportunidad. Pese a intentar darles la mejor vida posible, eran muy pobres y vivian en muy malas condiciones. Un día Django
+                  robó comida para alimentar a su familia, pero lo siguieron hasta su casa y prendieron fuego a su casa, matando a Marya y haciendo que Wanda y Pietro huyeran. Años despues Django se reencontraría con los gemelos, aunque poco despues Wanda sería poseida por el dios del Caos, y Django se sacrificaría para salvar
+                  a su hija. Por este sacrificio, los hermanos, que en este punto usaban el apellido Frank, decidirian cambiarse el apellido devuelta a Maximoff para honrarlos a ambos, además de enterrarlo con honores en el mausoleo de los Vengadores, como un heroe.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-------------------------------------------------MODEL OLEG E IRYNA------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="modal" id="modal9" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Wanda y sus padres</h5>
+              </div>
+              <div class="modal-body">
+                <p>En el UCM, Wanda y Pietro vivían en la ciudad de Sokovia junto a sus padres Oleg e Iryna, quienes hacían lo que podían por sus hijos. Sokovia era una ciudad devastada por la guerra, un hecho que ambos padres intentaban ocultarle a sus hijos lo máximo posible. Uno de los metodos que tenían para ello era mostrarles a sus hijos 
+                  como la vida podía ser mediante sitcoms, los cuales Wanda adoraba. En ellos no había problemas, todo el mundo era feliz y si pasaba algo, todo estaba resuelto en el proximo capítulo. Sin embargo una noche mientras veían una de esas series un misil construido por Industrias Stark atacaría la casa de los Maximoff, matando a Iryna
+                  y Oleg. Wanda y Pietro se esconderían durante dos días hasta que finalmemte fueron rescatados.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
+</html>
